@@ -37,6 +37,7 @@ namespace APIGroup1Android
             }
 
             app.UseHttpsRedirection();
+            //testing Ming
 
             app.UseRouting();
 
