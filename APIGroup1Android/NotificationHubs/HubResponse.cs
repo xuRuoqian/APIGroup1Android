@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAppStudents.NotificationHubs
+namespace APIGroup1Android.NotificationHubs
 {
     public sealed class HubResponse<TResult> : HubResponse where TResult : class
     {
@@ -50,8 +50,5 @@ namespace WebAppStudents.NotificationHubs
             return this;
         }
 
-        public string FormattedErrorMessages => ErrorMessages.Any()
-            ? ErrorMessages.Aggregate((prev, current) => prev + Environment.NewLine + current)
-            : string.Empty;
     }
 }

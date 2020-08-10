@@ -1,12 +1,10 @@
 ﻿using Microsoft.Azure.NotificationHubs;
 using Microsoft.Azure.NotificationHubs.Messaging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using WebAppStudents.Configurations;
+using APIGroup1Android.Configurations;
 
-namespace WebAppStudents.NotificationHubs
+namespace APIGroup1Android.NotificationHubs
 {
     public class NotificationHubProxy
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAppStudents.Configurations
+namespace APIGroup1Android.Configurations
 {
     public class NotificationHubConfiguration
     {
